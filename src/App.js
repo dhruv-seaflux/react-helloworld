@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Calc from "./component/calc"; // Updated the component name to 'Calc'
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
+        <Calc /> {/* Correctly using the 'Calc' component */}
       </header>
     </div>
   );
