@@ -58,7 +58,6 @@ const Calc = () => {
             {/* Display the values and result */}
             <div>
                 Result: {result}
-                "test1234"
             </div>
         </>
     );
